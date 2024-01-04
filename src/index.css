@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.square{
+  width: 200px;
+  height: 200px;
+  margin-left: 665px;
+  margin-top: 10px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px black;
+  border-radius: .25rem;
+  display: grid;
+  place-content: center;
+}
+.form{
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.input{
+  border-radius: 10px;
+}
+button{
+  border-radius: 10px;
+}
